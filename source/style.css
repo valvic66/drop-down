@@ -1,0 +1,98 @@
+.presentationDiv {
+  width: 50%;
+  margin: 0 auto;
+}
+p#p1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.defaultSelectCSSClass {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+    position: relative;
+    /* background: grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .defaultItemListClass {
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    border: solid #ececec 1px;
+    overflow-y: auto;
+    max-height: 10em;
+    z-index: 5;
+    left: 0;
+  }
+  .hideItemList {
+    display: none;
+  }
+  .showItemList {
+    display: inline-block;
+  }
+
+  .defaultItemClass {
+    color: black;
+    border: solid white 1px;
+    cursor: pointer;
+    padding: .1em;
+  }
+  .defaultItemClass:hover {
+    background-color: grey;
+    color: white;
+  }
+
+  .defaultElementListClass {
+    width: 100%;
+    display: table;
+    /* border: solid black 1px; */
+  }
+  .defaultInputClass {
+    display: inline-block;
+  }
+  input {
+    border: none;
+    outline: none;
+  }
+  .onlySelectionWrapperCSSClasses {
+    display: table-cell;
+    width: 100%;
+    border: solid grey 1px;
+    background: white;
+    padding-bottom: .1em;
+    cursor: text;
+  }
+
+  .defaultElementClass {
+    display: inline-block;
+    background-color: lightgrey;
+    padding: .1em;
+    margin-top: .1em;
+    margin-left: .1em;
+    cursor: default;
+  }
+  .defaultElementClass:hover {
+    background-color: grey;
+  }
+  .defaultElementClass:first-child {
+    margin-left: .1em;
+  }
+  .defaultLabelClass {
+    color: black;
+    display: inline-block;
+    font-size: 1em;
+
+  }
+  .defaultBtnClass {
+    color: white;
+    display: inline-block;
+    background: none;
+    font-size: 1em;
+    cursor: pointer;
+  }
+    .defaultArrowClass {
+    display: table-cell;
+    cursor: pointer;
+    text-align: center;
+  }
