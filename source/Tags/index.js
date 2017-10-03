@@ -104,7 +104,7 @@ export default class Tags extends React.Component {
           onClick={this.handleArrowClick}
         >
 
-          <div style={{ padding: "4px" }}><img src="https://cdn.rawgit.com/valvic66/drop-down/24b97229/assets/arrow.png" /></div>
+          <div style={{ padding: "4px" }}><img src="https://cdn.rawgit.com/valvic66/drop-down/fef26ebb/assets/arrow.png" /></div>
 
         </div>
       </div>

@@ -20469,7 +20469,7 @@ var Tags = function (_React$Component) {
           react.createElement(
             'div',
             { style: { padding: "4px" } },
-            react.createElement('img', { src: 'https://cdn.rawgit.com/valvic66/drop-down/24b97229/assets/arrow.png' })
+            react.createElement('img', { src: 'https://cdn.rawgit.com/valvic66/drop-down/fef26ebb/assets/arrow.png' })
           )
         )
       );
